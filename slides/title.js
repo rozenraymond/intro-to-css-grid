@@ -4,12 +4,12 @@ import styled from "styled-components";
 
 const Better = styled.span`
   text-decoration: underline;
-  color: #38023B;
+  color: #AFCBFF;
 `;
 
 export default (
-  <Slide transition={["zoom"]} bgColor="primary">
-    <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+  <Slide transition={["zoom"]} bgColor="quarternary">
+    <Heading size={1} fit caps lineHeight={1} textColor="primary">
       CSS Grid
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>

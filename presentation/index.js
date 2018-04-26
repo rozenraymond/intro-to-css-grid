@@ -53,7 +53,6 @@ const presentationSlides = [
   import('../slides/css-grid-8-1'),
   import('../slides/css-grid-9'),
   import('../slides/css-grid-10'),
-  import('../slides/css-grid-11'),
   import('../slides/css-grid-12'),
   import('../slides/css-grid-13'),
   import('../slides/css-grid-reference'),
@@ -63,7 +62,8 @@ const theme = createTheme({
   primary: "white",
   secondary: "#1F2022",
   tertiary: "#03A9FC",
-  quarternary: "#CECECE"
+  quarternary: "#0E1C36",
+  fifth: "AFCBFF",
 }, {
   primary: "Montserrat",
   secondary: "Helvetica"
