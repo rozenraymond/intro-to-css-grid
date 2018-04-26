@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js deploy
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js start
 
 PATH: 
   /Users/rozenrevileneraymond/.rvm/gems/ruby-2.4.0/bin:/Users/rozenrevileneraymond/.rvm/gems/ruby-2.4.0@global/bin:/Users/rozenrevileneraymond/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rozenrevileneraymond/.rvm/bin
@@ -6582,7 +6582,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c npm run clean & npm run build && surge -p .
+  Arguments: -c cross-env NODE_ENV=development node server.js
   Directory: /Users/rozenrevileneraymond/Documents/Work/presentation/css-grid-presentation-master
   Output:
   

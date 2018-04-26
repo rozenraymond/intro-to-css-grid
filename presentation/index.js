@@ -56,6 +56,7 @@ const presentationSlides = [
   import('../slides/css-grid-12'),
   import('../slides/css-grid-13'),
   import('../slides/fallback'),
+  import('../slides/lendi-browser'),
   import('../slides/css-grid-reference'),
 ];
 
