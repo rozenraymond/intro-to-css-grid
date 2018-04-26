@@ -16,6 +16,9 @@ const ExampleWrapper = styled.div`
 
 export default (
   <Slide transition={["fade"]} bgColor="tertiary">
+    <Heading size={3} caps lineHeight={1} textColor="secondary">
+      We can do that now?!
+    </Heading>
     <ExampleWrapper>
       <div>
         <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" />

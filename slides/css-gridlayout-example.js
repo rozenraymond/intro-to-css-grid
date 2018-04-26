@@ -15,7 +15,7 @@ const ExampleWrapper = styled.div`
 export default (
   <Slide transition={["fade"]} bgColor="primary">
   <Heading size={3} caps lineHeight={1} textColor="secondary">
-    Align the items
+    Difference of the new vs old layout
   </Heading>
     <ExampleWrapper>
       <div>

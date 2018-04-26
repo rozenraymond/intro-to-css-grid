@@ -32,7 +32,7 @@ const Demo = styled.div`
   justify-self: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-row: repeat(3, 1fr);
+  grid-template-row: repeat(2, 1fr);
 
   div {
     border: 3px dotted pink;
@@ -43,7 +43,7 @@ const cssExample = `
 .container {
   display: grid;
   grid-template-columns: 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
 }
 `;
 
@@ -58,9 +58,6 @@ export default (
         <CodePane lang="css" source={cssExample} height={"50%"} width={"100%"} className={"code"}/>
       </CodeWrapper>
       <Demo>
-        <div></div>
-        <div></div>
-        <div></div>
         <div></div>
         <div></div>
         <div></div>

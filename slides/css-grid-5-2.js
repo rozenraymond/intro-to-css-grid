@@ -87,7 +87,7 @@ export default (
     </Heading>
     <Container>
       <CodeWrapper>
-        <CodePane lang="html" source={codeExample} className="code" />
+        <CodePane lang="html" source={cssExample} className="code" />
       </CodeWrapper>
       <Demo>
       <div className="item item1">
