@@ -29,13 +29,13 @@ const presentationSlides = [
   import('../slides/float-example-code-1'),
   import('../slides/float-example-code-2'),
   import('../slides/float-example-code-3'),
-  import('../slides/float1'),
-  import('../slides/float2'),
   import('../slides/float-example-code-4'),
   import('../slides/flex-intro'),
   import('../slides/flex-inline'),
   import('../slides/flex-align'),
   import('../slides/flex-multi-row'),
+  import('../slides/float1'),
+  import('../slides/float2'),
   import('../slides/hackQuotes'),
   import('../slides/css-grid-title'),
   import('../slides/css-grid-example1'),
@@ -55,6 +55,7 @@ const presentationSlides = [
   import('../slides/css-grid-10'),
   import('../slides/css-grid-12'),
   import('../slides/css-grid-13'),
+  import('../slides/fallback'),
   import('../slides/css-grid-reference'),
 ];
 
