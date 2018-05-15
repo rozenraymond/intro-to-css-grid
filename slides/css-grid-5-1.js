@@ -77,8 +77,8 @@ const Demo = styled.div`
 const cssExample = `
 .container {
   display: grid;
-  grid-template-columns:  [col1] 150px [col2] 150px [lastcol] 150px [lastcol];
-  grid-template-rows: 150px 150px;
+  grid-template-columns:  [col1] 150px [col2] 150px [col3] 150px [lastcol];
+  grid-template-rows: 150px 150px 150px;
 }
 
 .item2 {

@@ -17,7 +17,7 @@ const ExampleWrapper = styled.div`
 export default (
   <Slide transition={["fade"]} bgColor="tertiary">
     <Heading size={3} caps lineHeight={1} textColor="secondary">
-      www.lendi.com.au
+      site example
     </Heading>
     <ExampleWrapper>
       <div>
